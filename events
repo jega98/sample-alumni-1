@@ -1,0 +1,27 @@
+import React from 'react';
+
+
+
+const Events = () => {
+    return (
+        <div className="container-2">
+        <h1>Events</h1>
+            <h4>
+                It is imporant to carry out a good follow-up marketing of alumni events. With over 100 worldwide events a year,
+            </h4>
+            <h4>you have a wealth of alumni networking opportunies.</h4>
+            <div>
+                <h2>
+                    24
+                    JULY
+                </h2>
+                <p>
+                    Celebration day<br/>
+                    <small>Celebration day for today</small>
+                </p>
+                <a href="http://localhost:3000/EventInfo">Read more</a>
+            </div>
+        </div>
+    )
+}
+export default Events;
